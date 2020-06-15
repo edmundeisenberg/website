@@ -1,0 +1,1 @@
+This website's source code is published according to a copyleft license [GPL](https://www.gnu.org/licenses/gpl-3.0.en.html) and free to (re)use for personal or commercial purposes provided you grant others the same rights.
