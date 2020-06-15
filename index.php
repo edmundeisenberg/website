@@ -7,7 +7,7 @@ include_once "footer.php";
 	<body>
 		<?php getHeader() ?>
 		<div class="section">
-			<div class='opaque'>
+			<div class='clear'>
 				<div>
 					
 					<span style="width:49%;float:right;">

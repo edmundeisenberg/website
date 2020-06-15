@@ -18,21 +18,7 @@ function icon_click(){
 <?php
 
 function getHeader(){
-	echo '<div class="header">
-			<a href="index.php">
-			<div class="letterhead">
-				Ned Eisenberg
-				<!--<div class="desktop-only">
-				Web Development Tutor
-				</div>-->
-			</div>
-			</a>
-		</div>
-		<div class="menu_icon" onclick="icon_click()">
-			<div></div>
-			<div></div>
-			<div></div>
-		</div>
+	echo '
 		<div class="menu">
 			<div>
 				<a href="index.php">
@@ -52,6 +38,22 @@ function getHeader(){
 				</a>
 			</div>
 		</div>
+		<div class="header">
+			<a href="index.php">
+			<div class="letterhead">
+				Ned Eisenberg
+				<!--<div class="desktop-only">
+				Web Development Tutor
+				</div>-->
+			</div>
+			</a>
+		</div>
+		<div class="menu_icon" onclick="icon_click()">
+			<div></div>
+			<div></div>
+			<div></div>
+		</div>
+		
 		'
 		;
 	

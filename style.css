@@ -1,28 +1,46 @@
 
+
 /* 
 @font-face {
 	font-family: header;
  	src: url(fonts/engebrechtre-ex-it.woff);
 }
+ */
+
 
 @font-face {
-	font-family: menu;
+	font-family: phos;
  	src: url(fonts/Phosph12.woff);
 }
 
+
+/* 
 @font-face {
 	font-family: allElse;
  	src: url(fonts/AlteHaasGroteskRegular.woff);
 }
  */
 
+
 a {
-text-decoration:none;
-color:black;
+	text-decoration:none;
+	color:#000044;
+}
+
+a:hover{
+	text-decoration:underline;
+}
+
+.header a:hover{
+	text-decoration:none;
+}
+
+.menu a:hover{
+	text-decoration:none;
 }
 
 a:visited {
-	color:black;
+	color:gray;
 }
 
 body {
@@ -57,7 +75,7 @@ body {
 .header {
 	display:table;
 	position:relative;
-	background-image: linear-gradient(28deg, #fff, #a0a0ff);
+	/* background-image: linear-gradient(28deg, #fff, #a0a0ff); */
 
  /* 
 background-image:url("./assets/new_background.png");
@@ -65,6 +83,7 @@ background-image:url("./assets/new_background.png");
 
 	background-size:50%;
  */
+ background-color:rgba(255,255,255,.6);
 	width:100%;
 	height:20vh;
 }
@@ -80,9 +99,15 @@ background-image:url("./assets/new_background.png");
 	position:relative;
 	margin: 0 10vw 0 10vw;
 	line-height:1;
-	font-family: "Times New Roman", Times, serif;
+/* 
+	font-family: "Times", Times, serif;
+ */
+ 	font-family:phos;
 	font-size:2.8em;
+/* 
 	color:#f04530;
+ */
+ color:#000044;
 
 /* 
 	color:#cd9f5f;
@@ -144,7 +169,7 @@ background-image:url("./assets/new_background.png");
 	column-width:20%;
 	text-align:center;
 	border:none;
-	font-family: "Times New Roman", Times, serif;
+	font-family: "Times", Times, serif;
 	font-size:3vh;
 	color:#ccccff;
 	background-color:#000044;
@@ -174,38 +199,38 @@ background-image:url("./assets/new_background.png");
 }
 
  h1 {
-	font-family: "Times New Roman", Times, serif;
+	font-family: "Times", Times, serif;
 	text-decoration:underline;
+	color:#000044;
 }
 
 h2 {
-	font-family: "Times New Roman", Times, serif;
+	font-family: "Times", Times, serif;
+	color:#000044;
 }
 
 h3 {
 	display:inline-block;
 	padding: 0 1em;
-	font-family: "Times New Roman", Times, serif;
+	font-family: "Times", Times, serif;
+	color:#000044;
 }
 
 h4 {
-	font-family: "Times New Roman", Times, serif;
+	font-family: "Times", Times, serif;
 	color: gray;
 }
 
 p {
 	padding: 0 1vw 5vh 1vw;
-	font-family: "Times New Roman", Times, serif;
+	font-family: "Times", Times, serif;
 	font-size: 1.2em;
+	color:#000044;
 }
 
 textarea {
-height:200px;
-width:100vw;
-}
-
-span {
-
+	height:200px;
+	width:100vw;
 }
 
 .footer {
@@ -219,7 +244,7 @@ span {
 		line-height:100%;
 		vertical-align:middle;
 		text-align:center;
-		font-family: "Times New Roman", Times, serif;
+		font-family: "Times", Times, serif;
 		color:#ccccff;
 		width:100%;
 		display:table-cell;
@@ -261,6 +286,10 @@ span {
 		font-size:.25em;
 		bottom:-20px;
 	}
+	
+	.letterhead *:hover{
+		text-decoration:none;
+	}
 
 	.menu {
 
@@ -270,6 +299,8 @@ span {
 		margin: 0 0 0 0;
 		width:100%;
 		height: 8vh;
+		background-image: linear-gradient(28deg, #fff, #a0a0ff);
+
 	}
 
 	.menu_icon {
@@ -294,9 +325,17 @@ span {
 		column-width:20%;
 		text-align:center;
 		border:none;
-		font-family: "Times New Roman", Times, serif;
+		font-family: "Times", Times, serif;
 		font-size:3vh;
+/* 
 		color:#ccccff;
+ */
+		color:#000044;
+/* 
+			background-color:#000044;
+ */
+	background-color:rgba(0,0,0,0);
+
 	
 		padding:0;
 	}
@@ -316,6 +355,7 @@ span {
 
 	.section > .clear {
 		background-color: transparent;
+		background-color:rgba(255,255,255,.6);
 	}
 
 
@@ -363,7 +403,7 @@ span {
 		line-height:100%;
 		vertical-align:middle;
 		text-align:center;
-		font-family: "Times New Roman", Times, serif;
+		font-family: "Times", Times, serif;
 		color:#ccccff;
 		width:100%;
 		display:table-cell;
