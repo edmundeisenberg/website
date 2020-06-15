@@ -83,7 +83,7 @@ background-image:url("./assets/new_background.png");
 
 	background-size:50%;
  */
- background-color:rgba(255,255,255,.5);
+ background-color:rgba(255,255,255,.25);
 	width:100%;
 	height:20vh;
 }
@@ -348,14 +348,14 @@ textarea {
 /* 
 		background-color: #ccccff;
  */
- 	 background-color:rgba(255,255,255,.6);
+ 	 background-color:rgba(255,255,255,.25);
 
 		
 	}
 
 	.section > .clear {
 		background-color: transparent;
-		background-color:rgba(255,255,255,.6);
+		background-color:rgba(255,255,255,.25);
 	}
 
 
