@@ -32,7 +32,7 @@ a:hover{
 }
 
 a:visited {
-	color:gray;
+	color:slategray;
 }
 
 body {
@@ -84,14 +84,15 @@ body {
 	margin: 0 10vw 0 10vw;
 	line-height:1;
 /* 
-	font-family: "Times", Times, serif;
+	font-family: "Times New Roman", Times, serif;
  */
- 	font-family:phos;
+ 	font-family:"Times New Roman", Times, serif;
 	font-size:2.8em;
-/* 
 	color:#f04530;
- */
+
+/* 
  color:#000044;
+ */
 /* 
 	color:#cd9f5f;
  */
@@ -151,7 +152,7 @@ body {
 	column-width:20%;
 	text-align:center;
 	border:none;
-	font-family: "Times", Times, serif;
+	font-family: "Times New Roman", Times, serif;
 	font-size:3vh;
 	color:#ccccff;
 /* 
@@ -184,31 +185,31 @@ body {
 }
 
  h1 {
-	font-family: "Times", Times, serif;
+	font-family: "Times New Roman", Times, serif;
 	text-decoration:underline;
 	color:#000044;
 }
 
 h2 {
-	font-family: "Times", Times, serif;
+	font-family: "Times New Roman", Times, serif;
 	color:#000044;
 }
 
 h3 {
 	display:inline-block;
 	padding: 0 1em;
-	font-family: "Times", Times, serif;
-	color:#000044;
+	font-family: "Times New Roman", Times, serif;
+	color:#343434;
 }
 
 h4 {
-	font-family: "Times", Times, serif;
-	color: gray;
+	font-family: "Times New Roman", Times, serif;
+	color: #343434;
 }
 
 p {
 	padding: 0 1vw 5vh 1vw;
-	font-family: "Times", Times, serif;
+	font-family: "Times New Roman", Times, serif;
 	font-size: 1.2em;
 	color:#000044;
 }
@@ -229,7 +230,7 @@ textarea {
 		line-height:100%;
 		vertical-align:middle;
 		text-align:center;
-		font-family: "Times", Times, serif;
+		font-family: "Times New Roman", Times, serif;
 		color:#ccccff;
 		width:100%;
 		display:table-cell;
@@ -258,7 +259,7 @@ textarea {
 	}
 
 	.header {
-		height:24vh;
+		height:23vh;
 	}
 
 	.letterhead {
@@ -307,7 +308,7 @@ textarea {
 		column-width:20%;
 		text-align:center;
 		border:none;
-		font-family: "Times", Times, serif;
+		font-family: "Times New Roman", Times, serif;
 		font-size:3vh;
 /* 
 		color:#ccccff;
@@ -325,7 +326,7 @@ textarea {
 	}
 
 	.section > div > div {
-		padding:4vh 8vw 2vh 8vw;
+		padding:5vh 8vw 2vh 8vw;
 	}
 
 	.section > * {
@@ -366,7 +367,7 @@ textarea {
 		line-height:100%;
 		vertical-align:middle;
 		text-align:center;
-		font-family: "Times", Times, serif;
+		font-family: "Times New Roman", Times, serif;
 		color:#ccccff;
 		width:100%;
 		display:table-cell;
