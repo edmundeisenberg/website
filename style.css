@@ -39,9 +39,7 @@ body {
 	margin:0 0;
 	background-image:url("./assets/dither_bg.png");
 	background-repeat:repeat;
-
 	background-size:25%;
-
 	background-attachment: fixed;
 }
 
@@ -56,7 +54,7 @@ body {
 	}
 	
 	.headshot {
-	width : 100vw;
+		width : 100vw;
 	}
 }
 
@@ -170,11 +168,11 @@ body {
 /* 
  background-color: #cccccc;
  */
-	background-color:white;
+	background-color:rgba(255,255,255,.25);
 }
 
 .section > .clear {
-	background-color: transparent;
+	background-color:rgba(255,255,255,.25);
 }
 
 .section > * {
@@ -316,7 +314,7 @@ textarea {
  */
 		color:#000044;
 /* 
-			background-color:#000044;
+		background-color:#000044;
  */
 		background-color:rgba(0,0,0,0);
 		padding:0;
@@ -325,19 +323,6 @@ textarea {
 	.headshot {
 		height: 75%;
 	}
-
-	.section > .opaque {
-/* 
-		background-color: #ccccff;
- */
- 	 background-color:rgba(255,255,255,.25);	
-	}
-
-	.section > .clear {
-		background-color: transparent;
-		background-color:rgba(255,255,255,.25);
-	}
-
 
 	.section > div > div {
 		padding:4vh 8vw 2vh 8vw;
