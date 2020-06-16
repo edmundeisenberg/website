@@ -36,7 +36,7 @@ include_once "footer.php";
 						<br><br>
 						<hr>
 						<br><br>
-						<h3>Photoshop</h3><h3>InDesign</h3><h3>Illustrator</h3><h3>PDF Standard</h3>
+						<h3>Photoshop</h3><h3>InDesign</h3><h3>Illustrator</h3><h3>Data Vis</h3>
 					</span>
 				</div>
 			</div>
