@@ -14,14 +14,6 @@
 }
 
 
-/* 
-@font-face {
-	font-family: allElse;
- 	src: url(fonts/AlteHaasGroteskRegular.woff);
-}
- */
-
-
 a {
 	text-decoration:none;
 	color:#000044;
@@ -44,17 +36,13 @@ a:visited {
 }
 
 body {
-
 	margin:0 0;
 	background-image:url("./assets/dither_bg.png");
 	background-repeat:repeat;
 
 	background-size:25%;
 
-	background-attachment: fixed;	
-	background-blend-mode: lighten;
-	
-	
+	background-attachment: fixed;
 }
 
 /* 
@@ -76,14 +64,12 @@ body {
 	display:table;
 	position:relative;
 	/* background-image: linear-gradient(28deg, #fff, #a0a0ff); */
-
  /* 
-background-image:url("./assets/new_background.png");
+	background-image:url("./assets/new_background.png");
 	background-repeat:repeat;
-
 	background-size:50%;
  */
- background-color:rgba(255,255,255,.25);
+	background-color:rgba(255,255,255,.25);
 	width:100%;
 	height:20vh;
 }
@@ -108,7 +94,6 @@ background-image:url("./assets/new_background.png");
 	color:#f04530;
  */
  color:#000044;
-
 /* 
 	color:#cd9f5f;
  */
@@ -123,22 +108,23 @@ background-image:url("./assets/new_background.png");
 }
 
 .menu, .menu_icon {
+	z-index:10;
 	position:fixed;
 	top:0;
 	right: 0;
 	width:16vw;
 	height:16vw;
 	margin: 5px 5px;
-	
 	background-color: #000044;
-}
 
+}
 
 .menu_icon {
+/* 
 	z-index:10;
+ */
 	text-align:center;
 }
-
 
 .menu_icon div{
 	height: 7%;
@@ -146,8 +132,6 @@ background-image:url("./assets/new_background.png");
 	background-color: #ccccff;
 	margin: 16% 10%;
 }
-
-
 
 .menu > div {
 	display:block;
@@ -172,7 +156,10 @@ background-image:url("./assets/new_background.png");
 	font-family: "Times", Times, serif;
 	font-size:3vh;
 	color:#ccccff;
+/* 
 	background-color:#000044;
+ */
+ background-color: rgba(0,0,68,.87);
 	padding:14px;
 }
 
@@ -183,7 +170,7 @@ background-image:url("./assets/new_background.png");
 /* 
  background-color: #cccccc;
  */
- background-color:white;
+	background-color:white;
 }
 
 .section > .clear {
@@ -273,7 +260,7 @@ textarea {
 	}
 
 	.header {
-		height:30vh;
+		height:24vh;
 	}
 
 	.letterhead {
@@ -292,7 +279,6 @@ textarea {
 	}
 
 	.menu {
-
 		position:relative;
 		top:none;
 		right: none;
@@ -300,7 +286,6 @@ textarea {
 		width:100%;
 		height: 8vh;
 		background-image: linear-gradient(28deg, #fff, #a0a0ff);
-
 	}
 
 	.menu_icon {
@@ -318,8 +303,7 @@ textarea {
 	}
 
 	.menu a {
-		display:table-cell;
-	
+		display:table-cell;	
 		line-height:100%;
 		vertical-align:middle;
 		column-width:20%;
@@ -334,9 +318,7 @@ textarea {
 /* 
 			background-color:#000044;
  */
-	background-color:rgba(0,0,0,0);
-
-	
+		background-color:rgba(0,0,0,0);
 		padding:0;
 	}
 	
@@ -348,9 +330,7 @@ textarea {
 /* 
 		background-color: #ccccff;
  */
- 	 background-color:rgba(255,255,255,.25);
-
-		
+ 	 background-color:rgba(255,255,255,.25);	
 	}
 
 	.section > .clear {
@@ -360,7 +340,7 @@ textarea {
 
 
 	.section > div > div {
-		padding:8vh 8vw 8vh 8vw;
+		padding:4vh 8vw 2vh 8vw;
 	}
 
 	.section > * {
@@ -394,9 +374,7 @@ textarea {
 		display:table;
 		width:100%;
 		background-color: #000044;
-		height: 8vh;
-	
-	
+		height: 8vh;	
 	}
 
 	.footer * {
@@ -418,7 +396,6 @@ textarea {
 		display:block;
 	}
 		
-
 }
 
 @media only screen and (min-device-width: 600px) and (max-device-width:768px) {
@@ -426,9 +403,10 @@ textarea {
 		padding:4vh 8vw 4vh 8vw ;
 		height: auto;
 	}
+	
 	.section > * {
-	height:600px;
-}
+		height:600px;
+	}
 }
 
 /* @media only screen and (max-width: 600px)  { */
